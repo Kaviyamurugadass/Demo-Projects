@@ -1,0 +1,69 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color:purple;
+    border: 0cm;
+}
+#num{
+    width: 150;
+    height: 50;
+
+}
+h2{
+    text-align: right;
+}
+#output{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#ans{
+    color: aliceblue;
+    width: auto;
+    display: block;
+    font-size: 60px;
+    
+}
+.F{
+    position: absolute;
+   
+    top: 0;
+    right: 1;
+    padding: 10px;
+
+}
+.E{
+    position: absolute;
+    
+    top: 0;
+    left: 0;
+    padding: 10px;
+
+}
+.btn,.restart{
+    border: 2px;
+    border-radius: 12px;
+    width: 200px;
+    height: 50px;
+    font-size: large;
+}
+@media screen and (max-width:600px){
+   
+    .btn,.restart{
+        border: 1px;
+        border-radius: 6px;
+        width: 100px;
+        height: 25px;
+        font-size: large;
+    }
+    .F{
+      
+        position: relative;
+    
+    }
+    .E{
+        position: relative;
+       
+   
+    }
+}
+    
